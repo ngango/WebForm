@@ -147,6 +147,34 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LiteralControl.aspx.cs">
+      <DependentUpon>LiteralControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LiteralControl.aspx.designer.cs">
+      <DependentUpon>LiteralControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PanelControl.aspx.cs">
+      <DependentUpon>PanelControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PanelControl.aspx.designer.cs">
+      <DependentUpon>PanelControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UseSubmitBehavior.aspx.cs">
+      <DependentUpon>UseSubmitBehavior.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UseSubmitBehavior.aspx.designer.cs">
+      <DependentUpon>UseSubmitBehavior.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WizardControl.aspx.cs">
+      <DependentUpon>WizardControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WizardControl.aspx.designer.cs">
+      <DependentUpon>WizardControl.aspx</DependentUpon>
+    </Compile>
     <Content Include="About.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
@@ -191,6 +219,10 @@
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Content Include="LiteralControl.aspx" />
+    <Content Include="PanelControl.aspx" />
+    <Content Include="UseSubmitBehavior.aspx" />
+    <Content Include="WizardControl.aspx" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="HiddenField.aspx" />
     <Content Include="Images\logo.PNG" />
