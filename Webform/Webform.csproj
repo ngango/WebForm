@@ -161,12 +161,47 @@
     <Compile Include="PanelControl.aspx.designer.cs">
       <DependentUpon>PanelControl.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ServerTranfers2.aspx.cs">
+      <DependentUpon>ServerTranfers2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ServerTranfers2.aspx.designer.cs">
+      <DependentUpon>ServerTranfers2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ServerTransfer1.aspx.cs">
+      <DependentUpon>ServerTransfer1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ServerTransfer1.aspx.designer.cs">
+      <DependentUpon>ServerTransfer1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TechniqueToSendData.aspx.cs">
+      <DependentUpon>TechniqueToSendData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TechniqueToSendData.aspx.designer.cs">
+      <DependentUpon>TechniqueToSendData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TechniqueToSendData1.aspx.cs">
+      <DependentUpon>TechniqueToSendData1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TechniqueToSendData1.aspx.designer.cs">
+      <DependentUpon>TechniqueToSendData1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UseSubmitBehavior.aspx.cs">
       <DependentUpon>UseSubmitBehavior.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="UseSubmitBehavior.aspx.designer.cs">
       <DependentUpon>UseSubmitBehavior.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ValidateGroup.aspx.cs">
+      <DependentUpon>ValidateGroup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ValidateGroup.aspx.designer.cs">
+      <DependentUpon>ValidateGroup.aspx</DependentUpon>
     </Compile>
     <Compile Include="WizardControl.aspx.cs">
       <DependentUpon>WizardControl.aspx</DependentUpon>
@@ -221,7 +256,12 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Content Include="LiteralControl.aspx" />
     <Content Include="PanelControl.aspx" />
+    <Content Include="ServerTranfers2.aspx" />
+    <Content Include="ServerTransfer1.aspx" />
+    <Content Include="TechniqueToSendData.aspx" />
+    <Content Include="TechniqueToSendData1.aspx" />
     <Content Include="UseSubmitBehavior.aspx" />
+    <Content Include="ValidateGroup.aspx" />
     <Content Include="WizardControl.aspx" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="HiddenField.aspx" />
